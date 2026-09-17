@@ -1,0 +1,10 @@
+{
+  "name": "fieldservice-multiplayer-room",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/fieldservice-room.ts",
+    "test": "node --experimental-strip-types src/fieldservice-room.test.ts",
+    "typecheck": "tsc --noEmit"
+  }
+}
